@@ -8,7 +8,7 @@ public class MyMain {
                 {"7", "10" , "11", "1f"},
                 {"13", "14" , "15", "16"}};
         try {
-            System.out.println(getException(arr));
+            System.out.println(getSum(arr));
         } catch (MyArraySizeException e){
             e.printStackTrace();
         } catch (MyArrayDataException e){
