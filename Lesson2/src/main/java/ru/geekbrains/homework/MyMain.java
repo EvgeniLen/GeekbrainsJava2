@@ -16,7 +16,7 @@ public class MyMain {
         }
     }
 
-    public static int getException(String[][] arr) throws MyArraySizeException, MyArrayDataException{
+    public static int getSum(String[][] arr) throws MyArraySizeException, MyArrayDataException{
         for (String[] strings : arr) {
             if (arr.length != 4 || strings.length != 4)
                 throw new MyArraySizeException("Передан массив размерностью не 4х4");
