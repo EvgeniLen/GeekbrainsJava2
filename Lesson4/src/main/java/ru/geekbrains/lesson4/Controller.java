@@ -15,6 +15,7 @@ public class Controller {
         if (!mainTextField.getText().equals("")){
             mainTextArea.appendText(mainTextField.getText() + "\n");
             mainTextField.setText("");
+            mainTextField.requestFocus(); //для фокуса на поле
         }
 
     }
